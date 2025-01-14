@@ -1,0 +1,123 @@
+App.css
+
+/* General Body Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #f9f9f9;
+  margin: 0;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+/* Button Styling */
+button {
+  cursor: pointer;
+  padding: 10px 15px;
+  border: none;
+  border-radius: 5px;
+  background-color: #007bff;
+  color: white;
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+button:hover {
+  background-color: #0056b3;
+}
+
+/* Container for the Two Lists */
+.list-wrapper {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  width: 100%;
+  max-width: 900px;
+}
+
+/* Individual List Styling */
+.list-container {
+  width: 100%;
+  max-width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  background-color: white;
+  padding: 15px;
+  box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.list-container h2 {
+  font-size: 18px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+/* List Items */
+.list-items {
+  margin-top: 10px;
+  max-height: 400px;
+  overflow-y: auto;
+}
+
+.list-item {
+  display: flex;
+  flex-direction: column;
+  border: 1px solid #e3e3e3;
+  border-radius: 5px;
+  padding: 10px;
+  margin-bottom: 10px;
+  background-color: #f8f9fa;
+}
+
+.list-item h4 {
+  font-size: 14px;
+  font-weight: bold;
+  margin: 0;
+  color: #333;
+}
+
+.list-item p {
+  font-size: 12px;
+  color: #6c757d;
+  margin: 5px 0 0;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .list-wrapper {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+  }
+
+  .list-container {
+    max-width: 90%;
+    border-radius: 25px;
+    margin: 20px;
+  }
+}
+
+.create-btn{
+  margin-top: 10px;
+  margin-left: 700px;
+  margin-right: 700px;
+  align-items: center;
+  justify-content: center;
+  font-size: 11.9px;
+}
+
+.center-align{
+  align-items: center;
+  justify-content: center ;
+  text-align: center;
+}
+
+.lists-view{
+  background-color: #add8e6 ;
+  margin-right: 130px;
+  width: 900px;
+  height: 5000px;
+}
